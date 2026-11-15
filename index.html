@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sons da Selva · jogo de memória com os sons dos bichos do Brasil</title>
+<meta name="description" content="Sons da Selva: um jogo de memória com os sons da fauna brasileira. Escute a sequência e repita! Sem cadastro e sem coleta de dados pessoais.">
+<meta property="og:title" content="Sons da Selva">
+<meta property="og:description" content="Escute os bichos do Brasil e repita a sequência. Jogo de memória para toda a família.">
+<meta property="og:image" content="img/icone.png">
+<link rel="icon" href="img/icone.png">
+<style>
+:root{--verde:#1f8f45;--verde-esc:#0f4d26;--creme:#fff4df;--marrom:#6b3b17;--azul:#2a8be8}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6;color:#1d1d1b;background:#f5fbf3}
+a{color:var(--verde-esc)}
+.hero{background:linear-gradient(180deg,#2a8be8 0%,#7cc6f5 55%,#cfeec2 100%);text-align:center;padding:48px 20px 56px;color:#fff}
+.hero img{width:144px;height:144px;border-radius:32px;box-shadow:0 10px 28px rgba(0,0,0,.28);background:#fff}
+.hero h1{font-size:clamp(34px,7vw,52px);margin:18px 0 6px;text-shadow:0 3px 0 rgba(0,0,0,.22)}
+.hero p{max-width:620px;margin:0 auto;font-size:clamp(17px,3.2vw,21px);text-shadow:0 1px 3px rgba(0,0,0,.3)}
+.btn{display:inline-block;margin-top:22px;padding:14px 28px;border-radius:999px;background:var(--verde);color:#fff;font-weight:800;text-decoration:none;font-size:18px;box-shadow:0 6px 0 var(--verde-esc)}
+.btn:active{transform:translateY(3px);box-shadow:0 3px 0 var(--verde-esc)}
+main{max-width:860px;margin:0 auto;padding:8px 20px 40px}
+h2{font-size:26px;color:var(--verde-esc);margin:38px 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:#fff;border:2px solid #d8ecd2;border-radius:16px;padding:14px 16px}
+.card b{display:block;color:var(--marrom);font-size:18px}
+.stats{display:flex;flex-wrap:wrap;gap:12px;margin:10px 0}
+.stat{flex:1 1 150px;background:var(--creme);border:2px solid #ecd5a8;border-radius:16px;padding:12px;text-align:center}
+.stat strong{display:block;font-size:30px;color:var(--marrom)}
+footer{background:var(--verde-esc);color:#d9f2d3;text-align:center;padding:22px 16px;font-size:14px}
+footer a{color:#fff}
+.lang{font-size:14px;color:#555}
+</style>
+</head>
+<body>
+<header class="hero">
+  <img src="img/icone.png" alt="Ícone do Sons da Selva: um papagaio cantando">
+  <h1>Sons da Selva</h1>
+  <p>Um bicho "canta", você escuta a sequência e repete na mesma ordem. Simples de entender, desafiador de jogar.</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=br.com.sonsdaselva">Baixar na Google Play</a>
+</header>
+
+<main>
+  <div class="stats">
+    <div class="stat"><strong>14</strong>mundos pelo Brasil</div>
+    <div class="stat"><strong>54</strong>personagens</div>
+    <div class="stat"><strong>3</strong>idiomas</div>
+    <div class="stat"><strong>0</strong>dados pessoais coletados</div>
+  </div>
+
+  <h2>Como se joga</h2>
+  <div class="grid">
+    <div class="card"><b>Modo Desafio</b>Repita sequências de sons cada vez mais longas. O jogo se adapta ao seu ritmo.</div>
+    <div class="card"><b>Modo Livre</b>Toque nos bichos e explore os sons à vontade.</div>
+    <div class="card"><b>Quem faz este som?</b>Ouça o som e escolha o animal certo.</div>
+    <div class="card"><b>Minhas Sequências</b>Grave e ouça as suas próprias criações.</div>
+    <div class="card"><b>Conquistas</b>Complete desafios e ganhe selos.</div>
+    <div class="card"><b>Funciona offline</b>Os sons são sintetizados no aparelho, sem baixar nada extra.</div>
+  </div>
+
+  <h2>Feito para a família</h2>
+  <p>O jogo foi pensado para crianças e famílias: não tem cadastro, login nem compras, e o progresso fica salvo
+  somente no seu aparelho. Os anúncios, quando exibidos, são configurados para conteúdo infantil.</p>
+  <p class="lang">Disponível em Português, English e Español.</p>
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="privacidade.html">Política de privacidade</a></li>
+    <li><a href="https://github.com/wendercorrea/sonsdaselva">Repositório deste site no GitHub</a></li>
+  </ul>
+</main>
+
+<footer>
+  © Sons da Selva · <a href="privacidade.html">Política de privacidade</a>
+</footer>
+</body>
+</html>
