@@ -62,6 +62,10 @@ h2{font-family:var(--dp);font-weight:800;font-size:clamp(26px,5vw,34px);color:va
 .stat strong{display:block;font-family:var(--dp);font-size:36px;line-height:1.1;color:var(--leaf);text-shadow:0 2px 0 #123d0c}
 .stat span{font-size:14px;color:var(--muted);font-weight:700}
 
+.video{border-radius:18px;padding:8px;max-width:340px;margin:0 auto}
+.video iframe{display:block;width:100%;aspect-ratio:9/16;border:0;border-radius:12px}
+.video-link{text-align:center;margin-top:10px;font-size:14px}
+
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
 .card{border-radius:18px;padding:14px 18px}
 .card b{display:block;font-family:var(--dp);font-size:20px;color:var(--gold);margin-bottom:2px}
@@ -85,6 +89,12 @@ footer a{color:var(--gold)}
 </header>
 
 <main class="wrap">
+  <h2>Veja o jogo</h2>
+  <div class="video wood-dk">
+    <iframe src="https://www.youtube-nocookie.com/embed/DZaM8rHpiuI?rel=0" title="Vídeo do Sons da Selva" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+  </div>
+  <p class="video-link"><a href="https://youtu.be/DZaM8rHpiuI" target="_blank" rel="noopener">Assistir no YouTube</a></p>
+
   <h2>Conheça os bichos</h2>
   <div class="bichos">
     <div class="bicho"><span class="md" style="--c:#ff5a1f"><img src="img/bichos/tucano.webp" alt="" loading="lazy"></span><span class="a-name">Tucano</span></div>
